@@ -1,15 +1,14 @@
-import React, { Component, ComponentType } from "react";
+import React from "react";
 import { handleDate } from "../utils";
 
 type TDate = {
-  date: string;
+  date: string | Date;
 };
 
-function withDateTimePretty(WrappedComponent: any) {
-  return ({ ...props }) => {
-    console.log("props", props);
-    return <WrappedComponent date={handleDate(new Date(props.date))} />;
+const withDateTimePretty = (WrappedComponent: any) => {
+  return ({ date }: TDate) => {
+    return <WrappedComponent date={handleDate(new Date(date))} />;
   };
-}
+};
 
 export default withDateTimePretty;
