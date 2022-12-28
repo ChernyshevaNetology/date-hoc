@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/date-hoc/static/css/main.12282d3a.css",
+    "main.js": "/date-hoc/static/js/main.acc76856.js",
+    "index.html": "/date-hoc/index.html",
+    "main.12282d3a.css.map": "/date-hoc/static/css/main.12282d3a.css.map",
+    "main.acc76856.js.map": "/date-hoc/static/js/main.acc76856.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12282d3a.css",
+    "static/js/main.acc76856.js"
+  ]
+}
