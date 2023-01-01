@@ -1,7 +1,7 @@
 import React from "react";
 import withDateTimePretty from "../HOC/withDateTimePretty";
 
-type TDate = {
+export type TDate = {
   date: string;
 };
 
